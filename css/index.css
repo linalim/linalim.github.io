@@ -42,13 +42,30 @@ ul.posts li {
     list-style: none;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-
-.grid-container > div {
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-}
+.outer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+ }
+ .inner-grid {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+ }
+ .inner-grid img {
+    margin-top: 8px;
+    width: 100%;
+    padding: 10px;
+ }
+ @media screen and (max-width: 800px) {
+    .inner-grid {
+       flex: 50%;
+       max-width: 50%;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    .inner-grid {
+       flex: 100%;
+       max-width: 100%;
+    }
+ }
