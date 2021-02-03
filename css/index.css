@@ -45,13 +45,12 @@ ul.posts li {
 }
 
 .outer-grid {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     padding: 0 4px;
  }
  .inner-grid {
-    flex: 25%;
-    width: 25%;
+    width: 220px;
     padding: 0 4px;
  }
  .inner-grid img {
@@ -70,4 +69,8 @@ ul.posts li {
        flex: 100%;
        max-width: 100%;
     }
+ }
+
+ .container {
+     text-align: center;
  }
