@@ -22,7 +22,7 @@ a:hover {
 }
 h1 {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
@@ -71,11 +71,3 @@ ul.posts li {
        max-width: 100%;
     }
  }
-
-.container {
-    align-items: center;
-}
-
-.body {
-    align-items: center;
-}
