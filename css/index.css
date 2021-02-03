@@ -41,3 +41,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
