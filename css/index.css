@@ -50,14 +50,13 @@ ul.posts li {
  }
  .inner-grid {
     display: inline;
-    height: 200px;
-    width: 250px;
-    overflow: hidden;
     padding: 0 4px;
  }
  .inner-grid img {
     margin-top: 8px;
     width: 240px;
+    height: 200px;
+    object-fit: cover;
     padding: 10px;
  }
  @media screen and (max-width: 800px) {
