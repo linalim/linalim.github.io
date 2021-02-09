@@ -75,6 +75,23 @@ ul.posts li {
      text-align: center;
  }
 
- img:hover + div {
+ .a .hover-text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 40%;
+    display: none;
+    display: none;
+}
+
+.hover-img img:hover + .hover-text {
     display: block;
+}
+
+.hover-img {
+  position: relative;
+  display: inline-block;
 }
