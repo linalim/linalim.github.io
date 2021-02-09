@@ -75,15 +75,16 @@ ul.posts li {
      text-align: center;
  }
 
- .a .hover-text {
+ .hover-img .hover-text {
     position: absolute;
     z-index: 999;
     margin: 0 auto;
-    left: 0;
-    right: 0;
+    width: 100%;
+    height: 100%;
     text-align: center;
-    top: 40%;
-    display: none;
+    top: 0;
+    background-color: black;
+    opacity: 0.5;
     display: none;
 }
 
