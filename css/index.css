@@ -50,7 +50,9 @@ ul.posts li {
  }
  .inner-grid {
     display: inline;
+    height: 200px;
     width: 250px;
+    overflow: hidden;
     padding: 0 4px;
  }
  .inner-grid img {
