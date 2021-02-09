@@ -50,12 +50,12 @@ ul.posts li {
  }
  .inner-grid {
     display: inline;
-    width: 220px;
+    width: 250px;
     padding: 0 4px;
  }
  .inner-grid img {
     margin-top: 8px;
-    width: 200px;
+    width: 240px;
     padding: 10px;
  }
  @media screen and (max-width: 800px) {
@@ -74,3 +74,7 @@ ul.posts li {
  .container {
      text-align: center;
  }
+
+ img:hover + div {
+    display: block;
+}
